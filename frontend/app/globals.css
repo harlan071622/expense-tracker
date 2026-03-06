@@ -23,9 +23,8 @@ body {
   font-family: var(--font-sans), sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at 10% 10%, rgba(255, 193, 110, 0.36), transparent 34%),
-    radial-gradient(circle at 90% 20%, rgba(89, 198, 187, 0.3), transparent 30%),
-    linear-gradient(160deg, #f3f9fb 0%, #fff6ec 50%, #edf6f4 100%);
+    radial-gradient(circle at 5% 10%, rgba(0, 71, 159, 0.36), transparent 90%),
+    radial-gradient(circle at 90% 20%, rgb(0, 0, 0), transparent 350%);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -106,6 +105,7 @@ a {
   background: #e7efef;
   color: var(--ink);
   transition: transform 160ms ease, background 160ms ease;
+  margin-top: 10px ;
 }
 
 .button:hover {

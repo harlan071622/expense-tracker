@@ -286,7 +286,7 @@ export default function NewExpensePage() {
                 <div key={`${item.name}-${index}`} className={styles.itemRow}>
                   <span>{item.name}</span>
                   <span>x{item.qty}</span>
-                  <strong>${formatPeso(item.price)}</strong>
+                  <strong>{formatPeso(item.price)}</strong>
                 </div>
               ))}
             </div>

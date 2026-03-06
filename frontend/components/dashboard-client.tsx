@@ -99,7 +99,7 @@ export function DashboardClient() {
   return (
     <div className="page-wrap">
       <section className={styles.hero}>
-        <div>
+        <div className="card">
           <p className={styles.eyebrow}>OCR Expense Tracker</p>
           <h1>Track spending from receipts in minutes.</h1>
           <p>
