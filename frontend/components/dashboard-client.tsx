@@ -146,7 +146,7 @@ export function DashboardClient() {
             })}
           </div>
         </article>
-
+        
         <article className="card">
           <div className={styles.cardHeader}>
             <h3>Category Share</h3>

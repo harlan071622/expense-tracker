@@ -148,7 +148,7 @@ export default function NewExpensePage() {
   return (
     <div className="page-wrap">
       <section className={styles.header}>
-        <div>
+        <div className='card'>
           <p className={styles.eyebrow}>Receipt Capture</p>
           <h1>Upload and confirm expense details</h1>
           <p>OCR extracts text, parser predicts fields, and you confirm before saving to MongoDB.</p>
