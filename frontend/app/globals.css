@@ -48,7 +48,7 @@ a {
   margin-bottom: 1rem;
   padding: 0.7rem 0.9rem;
   border-radius: var(--radius);
-  background: rgba(255, 255, 255, 0.58);
+  background: var(--surface);
   border: 1px solid rgba(18, 52, 74, 0.12);
   backdrop-filter: blur(6px);
 }
@@ -73,7 +73,7 @@ a {
 }
 
 .topnav a:hover {
-  background: rgba(45, 143, 136, 0.12);
+  background: rgba(45, 143, 137, 0.3);
   color: var(--ink);
 }
 
