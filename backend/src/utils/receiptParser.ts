@@ -191,7 +191,6 @@ function parseDateCandidate(raw: string): string | null {
     year += year > 70 ? 1900 : 2000;
   }
 
-  // Default to MM/DD/YYYY for US users unless first token cannot be a month.
   let month = first;
   let day = second;
   if (first > 12 && second <= 12) {
